@@ -214,6 +214,7 @@ body {
   margin-bottom: 24px;
 }
 .details__prices {
+  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   margin-bottom: 24px;
@@ -240,31 +241,16 @@ body {
 }
 .details__button {
   background-color: hsl(26deg, 100%, 55%);
-  width: 100%;
-  height: 57px;
-  border-radius: 8px;
-  border: none;
-  color: hsl(0deg, 0%, 100%);
-  font-size: 0.9em;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-}
-.details__button:hover {
-  cursor: pointer;
-  opacity: 0.5;
 }
 
 .input {
   height: 57px;
   display: flex;
   justify-content: space-between;
-  background-color: hsl(223deg, 64%, 98%);
 }
 .input__minus {
   width: 25px;
+  border: 1px solid;
   height: 100%;
   padding: 24px 5px;
 }
@@ -283,30 +269,12 @@ body {
 }
 .input__plus {
   width: 25px;
+  border: 1px solid;
   height: 100%;
   padding: 19px 3px;
 }
 .input__plus:hover {
   cursor: pointer;
-}
-
-.cart-modal {
-  width: 360px;
-  height: 260px;
-  border-radius: 8px;
-  box-shadow: 3px 3px 10px;
-  position: absolute;
-  top: 75px;
-  right: 6px;
-  background-color: hsl(0deg, 0%, 100%);
-}
-.cart-modal__title {
-  font-weight: 700;
-  padding: 24px;
-  border-bottom: 1px solid hsl(220deg, 14%, 75%);
-}
-.cart-modal__details-container {
-  border: 1px solid green;
 }
 
 .main-container {
@@ -319,4 +287,6 @@ body {
   .main-container {
     width: 1115px;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=mains.css.map */
